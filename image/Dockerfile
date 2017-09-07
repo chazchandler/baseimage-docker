@@ -1,5 +1,8 @@
-FROM ubuntu:16.04
-MAINTAINER Phusion <info@phusion.nl>
+ARG UBUNTU_VERSION
+
+FROM armv7/armhf-ubuntu:${UBUNTU_VERSION}
+
+MAINTAINER Phusion <info@phusion.nl>, chazchandler
 
 COPY . /bd_build
 
