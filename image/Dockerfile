@@ -1,6 +1,6 @@
 ARG UBUNTU_VERSION
 
-FROM armv7/armhf-ubuntu:${UBUNTU_VERSION}
+FROM chaznet/armhf-ubuntu:${UBUNTU_VERSION}
 
 MAINTAINER Phusion <info@phusion.nl>, chazchandler
 

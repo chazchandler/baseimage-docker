@@ -1,7 +1,5 @@
 # A minimal Ubuntu base image modified for Docker-friendliness
 
-> time BASEIMAGE_VERSION="0.9.22" UBUNTU_VERSION="16.04" docker-compose build
-
 [![](https://badge.imagelayers.io/phusion/baseimage:latest.svg)](https://imagelayers.io/?images=phusion/baseimage:latest 'Get your own badge on imagelayers.io')
 [![Travis](https://img.shields.io/travis/phusion/baseimage-docker.svg)](https://travis-ci.org/phusion/baseimage-docker)
 
